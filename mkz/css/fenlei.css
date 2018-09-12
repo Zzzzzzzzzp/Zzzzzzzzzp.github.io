@@ -1,0 +1,247 @@
+#main{
+	width:100%;
+	margin:20px auto;
+}
+#main>.fenlei{
+	width:1300px;
+	position:relative;
+	margin:auto;
+}
+.fenlei-position>span{
+	font-size:12px;
+	color:#999;
+}
+.fenlei-position>a{
+	font-size:12px;
+}
+.fenlei-position>a:hover{
+	color:#ff620e;
+}
+
+.fenlei-jsk{
+	width:100%;
+	height:auto;
+	margin-top:10px;
+	border:1px solid #ebebeb;
+	box-shadow:0 2px 2px 0 rgba(0,0,0,0.1);
+}
+.fenlei-jsk>div{
+	width:1260px;
+	margin:10px 20px;
+}
+.fenlei-jsk>div>div:first-child{
+	width:100%;
+	height:40px;
+	border-bottom:1px solid #ebebeb;
+	line-height:40px;
+}
+.fenlei-jsk>div>div:first-child>span{
+	color:#999;
+}
+.fenlei-jsk>div>div:last-child{
+	width:100%;
+	margin-top:10px;
+}
+.fenlei-jsk>div>div:last-child>div{
+	margin:10px 0;
+}
+.fenlei-jsk>div>div:last-child>div>a{
+	display:inline-block;
+	width:50px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+}
+.fenlei-jsk>div>div:last-child>div>span{
+	color:#999;
+}
+.fenlei-jsk>div>div:last-child>:nth-child(3)>span{
+	display:inline-block;
+	width:45px;
+	height:30px;
+	line-height:30px;
+	float:left;
+}
+.fenlei-jsk>div>div:last-child>:nth-child(3)>ul{
+	display:inline-block;
+	list-style:none;
+	position:relative;
+	width:1215px;
+	margin-bottom:-10px;
+}
+.fenlei-jsk>div>div:last-child>:nth-child(3)>ul:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.fenlei-jsk>div>div:last-child>:nth-child(3)>ul>li{
+	float:left;
+	width:50px;
+	height:30px;
+	margin-left:3px;
+	margin-bottom:8px;
+}
+.fenlei-jsk>div>div:last-child>:nth-child(3)>ul>li>a{
+	display:inline-block;
+	width:100%;
+	height:100%;
+	text-align:center;
+	line-height:30px;
+}
+.a-clickstyle{
+	border-radius:14px;
+	background:#ff620e;
+	color:#fff;
+}
+.hover{
+	color:#ff620e;
+}
+
+.fenlei-content{
+	width:100%;
+	margin-top:20px;
+}
+.fenlei-content>div:first-child{
+	width:100%;
+	position:relative;
+	margin:auto;
+	line-height:48px;
+	border-bottom:1px solid #ddd;
+}
+.fenlei-content>div:first-child:after , .fenlei-content>:nth-child(3)>ul:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.fenlei-content>div:first-child>a{
+	display:inline-block;
+	width:64px;
+	height:48px;
+	margin-right:30px;
+	font-size: 16px;
+    float: left;
+}
+.fenlei-content>div:first-child>span{
+	display:inline-block;
+	float:right;
+	font-size: 12px;
+    color: #666666;
+}
+.a-clickstyle2{
+	color:#ff620e;
+	border-bottom:2px solid #ff620e;
+}
+/**/
+.fenlei-content>:nth-child(2)>ul{
+	list-style:none;
+	margin-top:20px;
+}
+.fenlei-content>:nth-child(2)>ul:after , .fenlei-content>:nth-child(3):after{
+	clear:both;
+	content:'';
+	display:block;
+	overflow:hidden;
+	width:0;
+	height:0;
+}
+.fenlei-content>:nth-child(2)>ul>li{
+	float:left;
+	width:200px;
+	height:336px;
+	margin:0 7px 20px 9px;
+	position:relative;
+	overflow:hidden;
+}
+.fenlei-content>:nth-child(2)>ul>li>:first-child{
+	display:block;
+	width:200px;
+	height:266px;
+	overflow:hidden;
+}
+.fenlei-content>:nth-child(2)>ul>li>:first-child:after{
+	position:absolute;
+	left: 0;
+	top:0;
+	display: block;
+	width:200px;
+	height: 266px;
+	background:#ff620e;
+	opacity:0.3;
+	content: attr(data-text);
+	visibility:hidden;
+}
+.fenlei-content>:nth-child(2)>ul>li>:first-child:hover:after{
+	visibility:visible;
+}
+.fenlei-content>:nth-child(2)>ul>li>a>img{
+	width:100%;
+	height:100%;
+	transition:all 200ms;
+}
+.fenlei-content>:nth-child(2)>ul>li>:first-child:hover>img{
+	transform:scale(1.2);
+}
+.fenlei-content>:nth-child(2)>ul>li>:nth-child(2){
+	display:block;
+	height:25px;
+	line-height:30px;
+}
+.fenlei-content>:nth-child(2)>ul>li>:nth-child(2):hover{
+	color:#ff620e;
+}
+.fenlei-content>:nth-child(2)>ul>li>:nth-child(3){
+	position:absolute;
+	right:10px;
+	bottom:80px;
+	color:#fff;
+	display:block;
+	width:60px;
+	height:20px;
+	text-align:center;
+	background:rgba(0,0,0,0.5);
+}
+.fenlei-content>:nth-child(2)>ul>li>:nth-child(4){
+	display:block;
+	font-size:12px;
+	line-height:25px;
+	color:#999;
+}
+.fenlei-content>:nth-child(2)>ul>li>:nth-child(5){
+	color:#ff620e;
+}
+.fenlei-content>:nth-child(3)>ul{
+	list-style:none;
+	height:30px;
+	margin:auto;
+	float:left;
+	overflow:hidden;
+}
+.fenlei-content>:nth-child(3)>ul>li{
+	float:left;
+	width:30px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	margin:0 5px;
+	cursor:pointer;
+}
+.fenlei-content>:nth-child(3)>span{
+	float:left;
+	width:30px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	margin:0 5px;
+	background:#999;
+	color:#fff;
+	border-radius:50%;
+	cursor:pointer;
+}
+.fenlei-content>:nth-child(3)>span:first-child{
+	visibility:hidden;
+}
+.liclick{
+	border-radius:50%;
+	background:#ff620e;
+	color:#fff;
+}

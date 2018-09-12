@@ -1,0 +1,130 @@
+#footer{
+	padding:0;
+	margin:0;
+	width:100%;
+	text-align:center;
+}
+.foot-wrap1{
+	margin:0;
+	border-bottom:1px solid #666;
+	background:#434343;
+}
+.foot-wrap2{
+	margin:0;
+	background:#434343;
+}
+.foot-wrap1>div{
+	width:1300px;
+	height:100px;
+	margin:0 auto;
+}
+.f-row-1{
+	float:left;
+}
+.f-row-2{
+	float:right;
+}
+.foot-wrap1 .f-row-1>a{
+	display:inline-block;
+	position:relative;
+	left:0;
+	top:30px;
+	height:44px;
+	width:44px;
+	background:url("../images/ic_foot_tg.png");
+}
+.foot-wrap1 .f-row-1>p{
+	display:inline-block;
+	position:relative;
+	left:30px;
+	color:#999;
+}
+.foot-wrap1 .f-row-1>ul li{
+	display:inline-block;
+	list-style:none;
+	position:relative;
+	left:172px;
+	top:5px;
+	padding-right:15px;
+}
+.foot-wrap1 .f-row-1>ul li a{
+	color:#fff;
+}
+.foot-wrap1 .f-row-1>ul li a:hover{
+	color:#ff620f;
+}
+.f-row-2 div{
+	float:left;
+	margin-right:100px;
+	height:100px;
+}
+.f-row-2 div span{
+	color:#999;
+	position:relative;
+	top:10px;
+}
+.f-row-2 div a{
+	position:relative;
+	top:25px;
+	height:45px;
+	width:45px;
+	margin-left:20px;
+}
+.foot-wrap2 div{
+	color:#fff;
+	line-height:30px;
+	width:1300px;
+	margin:0 auto;
+}
+.foot-wrap2 ul li{
+	list-style:none;
+	float:left;
+	border-right:2px solid #999;
+	margin-right:10px;
+	padding-right:10px;
+}
+.foot-wrap2 ul li a{
+	color:#fff;
+}
+.foot-wrap2  div p.p1{
+	clear:both;
+}
+.foot-wrap2 ul{
+	height:30px;
+	margin-top:10px;
+	margin-left:420px;
+}
+.foot-wrap1 .f-row-2 .c1{
+	float:left;
+	z-index:10px;
+	position:relative;
+	left:-30px;
+	bottom:140px;
+	display:none;
+}
+.foot-wrap1 .f-row-2 .c2{
+	float:left;
+	z-index:10px;
+	position:relative;
+	left:-30px;
+	bottom:140px;
+	display:none;
+}
+.foot-wrap1 .f-row-2 a{
+	display:inline-block;
+}
+.foot-wrap1 .f-row-2 #i1:hover .c1{
+	display:block;
+}
+.foot-wrap1 .f-row-2 #i2:hover .c2{
+	display:block;
+}
+.foot-wrap2 p:last-child a{
+	color:#fff;
+}
+.foot-wrap2 p:last-child a:hover{
+	color:#ff620f;
+}
+.foot-wrap2 ul li a:hover{
+	color:#ff620f;
+}

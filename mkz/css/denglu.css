@@ -1,0 +1,204 @@
+body{
+	background-image:url(../images/bg_login.jpg);
+	background-repeat: no-repeat;
+}
+.login-box{
+	width:700px;
+	height:350px;
+	position:absolute;
+	background:#fff;
+	border-radius:2px;
+}
+.login{
+	width:600px;
+	height:330px;
+	position:relative;
+	margin: 10px auto;
+}
+.login>div:first-child{
+	border-bottom:1px solid #ebebeb;
+}
+.login>div:first-child>span{
+	display:inline-block;
+	padding: 0 5px;
+    font-size: 22px;
+    margin-right: 20px;
+    position: relative;
+    display: inline-block;
+    line-height: 40px;
+    cursor: pointer;
+}
+.active{
+	color:#ff620e;
+	border-bottom:2px solid #ff620e;
+}
+.login>div:last-child{
+	margin-top:20px;	
+}
+.login>div:last-child:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+/*****登陆*****/
+.login>div:last-child>.dl{
+	width:320px;
+	float:left;
+}
+.login>div:last-child>.dl>p{
+	font-size: 16px;
+    color: #666666;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.login>div:last-child>.dl>input{
+	width: 298px;
+    height: 22px;
+    border: 1px solid #dddddd;
+    background: #fff;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #666;
+    padding: 10px;
+	margin-bottom:10px;
+}
+
+.login>div:last-child>.dl>div>input{
+	position:relative;
+	top:2px;
+}
+.login>div:last-child>.dl>div>a{
+	margin-left:200px;
+}
+.login>div:last-child>.dl>div>a:hover{
+	color:#ff620e;
+}
+.login>div:last-child>.dl>div>label{
+	cursor:pointer;
+	margin-left:5px;
+}
+.login>div:last-child>.dl>span{
+	display:block;
+	width: 200px;
+    height: 44px;
+	position:relative;
+	left:50px;
+    line-height: 44px;
+    background: #ff620e;
+    border-radius: 22px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 18px;
+    text-align: center;
+	transition: all 0.5s;
+}
+.login>div:last-child>.dl>span:hover{
+	opacity:0.7;
+}
+
+/*****注册*****/
+.login>div:last-child>.zc{
+	width:320px;
+	float:left;
+	display:none;
+}
+.login>div:last-child>.zc>p{
+	font-size: 16px;
+    color: #666666;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.login>div:last-child>.zc>input{
+	width: 298px;
+    height: 22px;
+    border: 1px solid #dddddd;
+    background: #fff;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #666;
+    padding: 10px;
+	margin-bottom:10px;
+}
+.login>div:last-child>.zc>:nth-child(6){
+	width: 188px;
+}
+.login>div:last-child>.zc>:nth-child(7){
+	display:inline-block;
+	width: 110px;
+    height: 44px;
+    line-height: 44px;
+	
+    background: #b4b4b4;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.login>div:last-child>.zc>span:last-child{
+	display:block;
+	width: 200px;
+    height: 44px;
+	position:relative;
+	left:50px;
+    line-height: 44px;
+    background: #ff620e;
+    border-radius: 22px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 18px;
+    text-align: center;
+	transition: all 0.5s;
+}
+.login>div:last-child>.zc>span:last-child:hover{
+	opacity:0.7;
+}
+
+
+/*****三方*****/
+.login>div:last-child>.sf{
+	width:245px;
+	float:right;
+	border-left:1px solid #ebebeb;
+}
+.login>div:last-child>.sf>p{
+	font-size: 16px;
+    color: #666666;
+    margin-bottom: 15px;
+    font-weight: bold;
+	text-align:center;
+}
+.login>div:last-child>.sf>a{
+	display:block;
+	width: 200px;
+    height: 44px;
+	position:relative;
+	left:30px;
+    line-height: 44px;
+    border-radius: 22px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 18px;
+    text-align: center;
+	transition: all 0.5s;
+}
+.login>div:last-child>.sf>:nth-child(2){
+	background:#51b7ec;
+}
+.login>div:last-child>.sf>:nth-child(3){
+	background:#46c33d;
+}
+.login>div:last-child>.sf>:nth-child(4){
+	background:#ff8400;
+}
+.login>div:last-child>.sf>a:hover{
+	opacity:0.7;
+}

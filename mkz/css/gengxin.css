@@ -1,0 +1,134 @@
+.main{
+	width: 1300px;
+	margin: 15px auto;
+}
+.main>.gengxin-position{
+	width: 100%;
+	height: 30px;
+	position:relative;
+	font-size:12px;
+}
+.main>.gengxin-position>span{
+	color:#999;
+}
+.main>.gengxin-position  a:hover{
+	color:#ff620e;
+}
+.gengxin-2>{
+	width:100%;
+	position:relative;
+}
+.gengxin-2>div{
+	height:38px;
+	border-bottom:1px solid #999;
+}
+.gengxin-2>div>span:first-child{
+	display:inline-block;
+	width:50px;
+	height:30px;
+	background: url("../images/ic_readerlist_new.png") no-repeat center;
+	float:left;
+	margin-right:20px;
+}
+.gengxin-2>div>:nth-child(2){
+	display:inline-block;
+	height:30px;
+	font-size:18px;
+	line-height:24px;
+	float:left;
+}
+.gengxin-2>div>ul{
+	list-style:none;
+	float:right;
+}
+.gengxin-2>div>ul>li{
+	display:inline-block;
+	float:right;
+	width:30px;
+	margin-left:20px;
+	height:35px;
+	text-align:center;
+	line-height:30px;
+	cursor:pointer;
+}
+.gengxin-h{
+	color:#ff620e;
+	border-bottom:3px solid #ff620e;
+}
+.gengxin-2>ul{
+	list-style:none;
+	margin-top:20px;
+}
+.gengxin-2>ul:after{
+	clear:both;
+	content:'';
+	display:block;
+	overflow:hidden;
+	width:0;
+	height:0;
+}
+.gengxin-2>ul>li{
+	float:left;
+	width:200px;
+	height:336px;
+	margin:0 7px 20px 9px;
+	position:relative;
+	overflow:hidden;
+}
+.gengxin-2>ul>li>:first-child{
+	display:block;
+	width:200px;
+	height:266px;
+	overflow:hidden;
+}
+.gengxin-2>ul>li>:first-child:after{
+	position:absolute;
+	left: 0;
+	top:0;
+	display: block;
+	width:200px;
+	height: 266px;
+	background:#ff620e;
+	opacity:0.3;
+	content: attr(data-text);
+	visibility:hidden;
+}
+.gengxin-2>ul>li>:first-child:hover:after{
+	visibility:visible;
+}
+.gengxin-2>ul>li>a>img{
+	width:100%;
+	height:100%;
+	transition:all 200ms;
+}
+.gengxin-2>ul>li>:first-child:hover>img{
+	transform:scale(1.2);
+}
+.gengxin-2>ul>li>:nth-child(2){
+	display:block;
+	height:25px;
+	line-height:30px;
+}
+.gengxin-2>ul>li>:nth-child(2):hover{
+	color:#ff620e;
+}
+.gengxin-2>ul>li>:nth-child(3){
+	position:absolute;
+	right:10px;
+	bottom:80px;
+	color:#fff;
+	display:block;
+	width:60px;
+	height:20px;
+	text-align:center;
+	background:rgba(0,0,0,0.5);
+}
+.gengxin-2>ul>li>:nth-child(4){
+	display:block;
+	font-size:12px;
+	line-height:25px;
+	color:#999;
+}
+.gengxin-2>ul>li>:nth-child(5){
+	color:#ff620e;
+}
